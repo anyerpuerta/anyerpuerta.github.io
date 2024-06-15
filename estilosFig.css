@@ -1,0 +1,110 @@
+body {
+    background-image: url(hw-homepage-splash.jpeg);
+    left: 400px;
+         font-family: 'Times New Roman', Times, serif;
+         background-repeat: no-repeat;
+         background-size: 100%;
+         background-attachment: fixed;
+    }
+    nav a {
+        color: #000000;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .botones{ 
+     
+        padding: 10px 10px;
+        border: #f04545 solid;
+        color: black;
+        font-weight: bold;
+        border-radius: 10px;
+        text-align: center;
+        transition: all 1s;
+        background-color: #ffffff;
+    }
+    section {
+        padding: 20px;
+    }
+    .Bing  {
+        height: 400px;
+        width: 250px; 
+        margin: 10px;
+        background-color: #f9f9f9;
+        border: 2px solid #ccc;
+        border-radius: 2%;
+        top: 50px;
+    }
+    
+    .mainfiguras img {
+    height: 150px;
+    
+    }
+    
+    .nerf {
+        
+        width: 250px; 
+
+    }
+    
+    .kid {
+        top: 30px;
+        height: 100px;
+        width: 400px;
+        background-color: #f9f9f9;
+        border: 2px solid #ccc;
+        border-radius: 2%;
+    }
+    
+    .gumbal {
+        height: 380px;
+        width: 400px;
+        background-color: #f9f9f9;
+        border: 2px solid #ccc;
+        border-radius: 2%;
+    }
+    
+    
+    .terreneitor {
+        height: 400px; 
+        background-color: #f9f9f9;
+        border: 2px solid #ccc;
+        border-radius: 2%;
+    }
+    
+    .jhon {
+        height: 400px;
+        width: 250px;
+        background-color: #f9f9f9;
+        border: 2px solid #ccc;
+        border-radius: 2%;
+    }
+    
+    .mainfiguras{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    
+    }
+    
+    .mainfiguras div{
+        display:flexbox;
+    }
+    .botones{ 
+         
+        padding: 10px 10px;
+        border: #f04545 solid;
+        color: black;
+        font-weight: bold;
+        border-radius: 10px;
+        text-align: center;
+        transition: all 1s;
+        background-color: #ffffff;
+    }
+.fafa{
+    color: #ffffff;
+}
+header {
+color: #ffffff;
+}

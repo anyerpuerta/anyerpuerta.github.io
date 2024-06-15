@@ -1,0 +1,178 @@
+body {
+    
+    background-image: url(fondo\ 2.avif);
+     left: 400px;
+     font-family: 'Times New Roman', Times, serif;
+     background-repeat: no-repeat;
+     background-size: 100%;
+  }
+  nav {
+     background-color: #ffffff00;
+     color: #ffffff00;
+     padding: 30px;
+     text-align: center;
+
+  }
+  nav a {
+      color: #000000;
+      text-decoration: none;
+      margin: 0 10px;
+  }
+  section {
+      padding: 20px;
+  
+  }
+  h1 {
+     margin-top: -10px;
+      text-align: center;
+      font-size: 50px;
+      color: rgb(255, 255, 255);
+      top: 900px;
+  }
+  .botones{ 
+     
+      padding: 10px 10px;
+      border: #f04545 solid;
+      color: black;
+      font-weight: bold;
+      border-radius: 10px;
+      text-align: center;
+      transition: all 1s;
+      background-color: #ffffff;
+  }
+ fieldset{
+     background-image: url();
+     background-size: 100% 102%;
+     background-repeat: no-repeat;
+     border: #000000;
+ }
+ 
+ header {
+     
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+ }
+ header .logo{
+     font-size: 24px;
+     font-weight: bold;
+ }
+ .sapa{
+     background-image: url();
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     
+     width: 273px;
+     top: 25px;
+     right: 10px;
+     height: 155px;
+     position: absolute;
+ }
+ .SS {
+    position: relative;
+    width: 100%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.SS {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.SS.active {
+    opacity: 1;
+}
+
+.SS {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.SS.prev {
+    left: 10px;
+}
+
+.RR.next {
+    right: 10px;
+}
+
+.ERIKA {
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-products h2 {
+    color: #ff4500;
+}
+
+.JOSEP {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.MUJER{
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 15px;
+}
+
+.MUJER:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.MUJER img {
+    max-width: 100%;
+}
+
+.MUJER h3 {
+    color: #333;
+}
+
+.MUJER p {
+    color: #666;
+}
+
+
+.MUJER button:hover {
+    background-color: #ff6500;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.text{
+    font-size: 26px;
+    text-align: center;
+}
+.HYA {
+    font-size:20px;
+    text-align: center;   
+}

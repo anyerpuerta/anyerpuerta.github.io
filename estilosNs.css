@@ -1,0 +1,43 @@
+body {
+    background-image: url(escri.jpg);
+     left: 400px;
+     font-family: 'Times New Roman', Times, serif;
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.botones{ 
+ 
+    padding: 10px 10px;
+    border: #f04545 solid;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 1s;
+    background-color: #ffffff;
+}
+header {
+    color: #ffffff;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+.imagen {
+    padding: 15px;
+    width: 300px;
+    margin:15px;
+    background-color: #000000;
+}
+
+.textos{
+    align-self: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.144);
+    width: 700px;
+}
